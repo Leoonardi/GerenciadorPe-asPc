@@ -1,3 +1,5 @@
+using GerenciadorPeçasPc.View;
+
 namespace GerenciadorPeçasPc
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace GerenciadorPeçasPc
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new form1());
+            Application.Run(new MenuPrincipal());
         }
     }
 }
