@@ -18,6 +18,7 @@ namespace GerenciadorPeçasPc.Model
             InitializeComponent();
         }
 
+
         private void btnalterard_Click(object sender, EventArgs e)
         {
             Pecas.Codigo = Convert.ToInt32(txtboxCod.Text);
